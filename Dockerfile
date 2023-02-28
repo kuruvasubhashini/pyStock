@@ -6,7 +6,7 @@ ADD lib /lib
 
 VOLUME /database
 
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip
 
 CMD ["python", "stock-RESTClient.py"]
 
