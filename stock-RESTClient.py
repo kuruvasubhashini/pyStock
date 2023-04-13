@@ -1,4 +1,4 @@
-from helpers.Stock import 
+import numpy as np
 from indicators.StockData import StockData
 from flask_restful import Resource, Api, reqparse
 from waitress import serve
