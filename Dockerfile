@@ -2,7 +2,7 @@ FROM python:3.6
 
 ADD stock-RESTClient.py /
 ADD requirements.txt /
-ADD lib /lib
+ADD lib ./lib
 
 VOLUME /database
 
